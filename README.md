@@ -1,3 +1,40 @@
+# Template Info
+
+## bun-shadcnreact
+
+Vite + React template (Typescript) using Bun and TailwindCSS + shadcn/ui for styling. Simply start off with [shadcn/ui](https://ui.shadcn.com/) directly and install the components you need.
+
+Example:
+
+```bash
+bunx --bun shadcn-ui@latest add switch
+```
+
+This was made for personal use but feel free to clone this template as well.
+
+## Quickstart
+
+To use this template:
+
+```bash
+git clone https://github.com/SebilleK/bun-shadcnreact # clone this repo
+cd bun-shadcnreact
+bun i # install dependencies
+bun run dev # start the server
+```
+
+To build app for production:
+
+```bash
+bunx --bun vite build
+```
+
+References:
+
+- https://bun.sh/guides/ecosystem/vite
+- https://tailwindcss.com/docs/installation
+- https://ui.shadcn.com/docs/installation/vite
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -15,14 +52,14 @@ If you are developing a production application, we recommend updating the config
 
 ```js
 export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+	// other rules...
+	parserOptions: {
+		ecmaVersion: 'latest',
+		sourceType: 'module',
+		project: ['./tsconfig.json', './tsconfig.node.json'],
+		tsconfigRootDir: __dirname,
+	},
+};
 ```
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
