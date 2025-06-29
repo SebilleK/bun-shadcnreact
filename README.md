@@ -7,7 +7,7 @@ Vite + React template (Typescript) using Bun and TailwindCSS + shadcn/ui for sty
 Example:
 
 ```bash
-bunx --bun shadcn-ui@latest add switch
+bunx shadcn@latest add switch
 ```
 
 This was made for personal use but feel free to clone this template as well.
